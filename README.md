@@ -1,4 +1,4 @@
-# 🎮 Jogo de Adivinhação - Gastronomia
+# 🎮 Jogo de Adivinhação - Temas Diversos
 Projeto desenvolvido para a disciplina de Lógica de Programação.
 
 ## 🚀 Tecnologias
