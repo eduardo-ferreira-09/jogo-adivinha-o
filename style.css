@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('imagem1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.painel {
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 { color: #CD5700; margin-bottom: 20px; }
+
+.lista-dicas {
+    text-align: left;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    list-style: none;
+
+}
+
+.lista-dicas li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.input-nome {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0 15px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.btn-jogar {
+    background: #CD5700;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;
+}
